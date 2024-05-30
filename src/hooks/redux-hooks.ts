@@ -1,5 +1,4 @@
-
-import {AppDispatch, AppStore, RootState} from "../services/store/store.ts";
+import {AppDispatch, AppStore, RootState} from "../services/store/types/types.ts";
 import {
     useDispatch as dispatchHook,
     useSelector as selectorHook, useStore,

@@ -1,14 +1,12 @@
 import './App.css'
-import {useAppDispatch} from "../../hooks/redux-hooks.ts";
-
+import Layout from "../layout/layout.tsx";
+import Routing from "../routing/routing.tsx";
 
 function App() {
-    const dispatch = useAppDispatch();
-
     return (
-        <div className={"p-[20px]"}>
-
-        </div>
+        <Layout>
+            <Routing/>
+        </Layout>
     )
 }
 
